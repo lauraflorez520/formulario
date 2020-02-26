@@ -2,19 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
 
-body{
-    background-image: url(
-        ../img/monanthes.jpg
-    );
-  
+body{ background-image: url(
+    ../img/monanthes.jpg
+);
+background-size: contain;  
+
+
 }
 nav{
     display: flexbox;
     justify-content: center;
    font-family: 'Lora';
-    background-color: #D6DBDF;
-    margin: 4% 30% 1% 30%;
+   background-color: #D6DBDF;
+        margin: 4% 30% 1% 30%;
     padding: auto 10% auto auto;
+    
 }
 #container {
     display: flexbox;
@@ -52,5 +54,5 @@ nav div{
 }
 .control-numeros{
     width: 39%
-    ;
+     
 }
