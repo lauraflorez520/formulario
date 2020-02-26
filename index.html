@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css/style.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <nav>
+            <section id=container>
+                <div class=text-center>
+<h1><span class="texto">C</span>ontáctano<span class="texto">S</span></h1>
+<p>¡Bienvenido! Al llenar este formulario nos ayudas a mejorar </p>
+<form action="#" id="survey-form">
+</div>
+
+<div class=text-center>
+    <label id="name-label" for="name">Nombres y Apellidos</label>
+    <br>
+    <input type="text" name="nombres" id="name" class="form-control" placeholder="Digite su Nombre y Apellidos" required="">
+
+</div>
+<div>
+    <label id="email-label" for="email">E-mail</label>
+    <br>
+    <input type="email" name="correo" id="email" class="control-email" placeholder="Déjanos tu correo" required="" aria-errormessage="Este no es un correo electrónico">
+</div>
+<div>
+    <label id="number-label" for="number">Edad</label>
+    <br>
+    <input type="number" name="Edad" id="number" min="18" max="99" class="control-numeros" placeholder="¿Cual es tu edad?" required="">
+</div>
+
+<div>
+    <p>Género</p>
+    <label class="genero">
+        <input name="genero" value="femenino" type="radio" class="input-radio" checked="">Femenino
+    </label>
+    <label>
+        <input name="genero" value="masculino" type="radio" class="input-radio" checked="">Masculino
+    </label>
+    <label>
+        <input name="genero" value="otro" type="radio" class="input-radio" checked="">Otro
+    </label>
+</div>
+<div>
+    <p>¿Desde donde nos escribes?</p>
+    <select id="dropdown" name="ciudad" class="form-control" required="">
+        <option disabled="" selected="" value="">Selecciona una ciudad</option>
+        <option value="medellin">Medellín</option>
+        <option value="envigado">Envigado</option>
+        <option value="sabaneta">Sabaneta</option>
+        <option value="itagui">Itagüí</option>
+        <option value="caldas">Caldas</option>
+        <option value="la-estrella">La Estrella</option>
+        <option value="bello">Bello</option>
+        <option value="otra">Otra</option>
+   
+</div>
+        </select>
+</div>
+<div>
+    <p>¿En cual de nuestros productos estas interesado?</p>
+    <label >
+        <input name="prefer" value="suculentas" type="checkbox" class="input-checkbox">Suculentas
+    </label>
+    <label>
+        <input name="prefer" value="cactus" type="checkbox" class="input-checkbox">Cactus
+    </label>
+    <label>
+        <input name="prefer" value="materas-decoradas" type="checkbox" class="input-checkbox">Materas Decoradas
+    </label>
+    <br>
+    <label>
+        <input name="prefer" value="peluches" type="checkbox" class="input-checkbox">Peluches
+    </label>
+    <label>
+        <input name="prefer" value="llaveros" type="checkbox" class="input-checkbox">Llaveros
+    </label>
+    <label>
+        <input name="prefer" value="cuadros" type="checkbox" class="input-checkbox">Cuadros
+    </label>
+    <br>
+    <label>
+        <input name="prefer" value="" type="text" class="input-checkbox" placeholder="Otro"></label>
+</div>
+<div>
+    <p>Déjanos tus comentarios</p>
+    <textarea id="comments" class="input-textarea" name="comentarios" placeholder="¿Qué nos quisieras decir?"></textarea>
+</div>
+<div class="">
+    <button type="submit" id="submit" class="submit-button">
+      Submit
+    </button>
+  </div>
+</form>
+            </section>
+        </nav>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

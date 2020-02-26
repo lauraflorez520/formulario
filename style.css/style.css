@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+
+body{
+    background-image: url(
+        ../img/monanthes.jpg
+    );
+  
+}
+nav{
+    display: flexbox;
+    justify-content: center;
+   font-family: 'Lora';
+    background-color: #D6DBDF;
+    margin: 4% 30% 1% 30%;
+    padding: auto 10% auto auto;
+}
+#container {
+    display: flexbox;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.texto{
+    color: #FF0087;
+    
+}
+  
+nav p{
+    text-align: center;
+}
+nav h1{
+    text-align: center;
+    margin-top: 4%;
+}
+nav div{
+    text-align: center;
+    display: inherit;
+}
+#name-label{
+    display: flexbox;
+    justify-content: center;
+}
+.text-center{
+    display: flexbox;
+}
+
+.submit-button {
+    margin-left: 80%;
+    margin-bottom: 5%;
+}
+.control-numeros{
+    width: 39%
+    ;
+}
