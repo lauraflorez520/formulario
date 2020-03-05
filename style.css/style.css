@@ -5,15 +5,16 @@
 body{ background-image: url(
     ../img/monanthes.jpg
 );
-background-size: contain;  
-
+background-size: 30% 40%;;  
+background-repeat: no-repeat;
+background-attachment: fixed;
 
 }
 nav{
     display: flexbox;
     justify-content: center;
    font-family: 'Lora';
-   background-color: #D6DBDF;
+   background-color: rgba(214, 219, 223, 0.5);
         margin: 4% 30% 1% 30%;
     padding: auto 10% auto auto;
     
